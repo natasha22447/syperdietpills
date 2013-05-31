@@ -1,0 +1,56 @@
+.questions
+{
+color: #ff0000;
+font-size: 16px;
+font-family: Verdana;
+font-weight: 400;
+line-height: 25px;
+}
+
+.answers
+{
+color: #0000ff;
+font-size: 16px;
+font-family: Verdana;
+font-weight: 400;
+line-height: 25px;
+}
+
+.main_text
+{
+color: #000000;
+margin-left: 5px;
+text-indent: 30px;
+font-family: Georgia;
+}
+
+.header_text
+{
+color: #000000;
+font-family: Trebuchet MS;
+}
+
+a {
+   text-decoration:none;
+   color:#ff0000;
+   font-weight:bold;
+   font-size:16px;
+}
+
+#wind {
+    position: fixed;
+    margin-bottom: 150px;
+    width:400px;
+    height:500px;
+    left: 33%;
+    bottom: 10%;
+    border:solid #105a98 4px;
+    display: none;
+    z-index: 10;
+    overflow: hidden;
+    background-color:#778899;
+    color:#fff;
+    text-align:center;
+    padding:10px;
+    border-radius: 20px 20px 20px 20px;
+}

@@ -1,0 +1,45 @@
+.reviews
+{ 
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+
+.reviews-header
+{
+border: 3px solid #66cdaa;
+border-radius: 10px 10px 10px 10px;
+background-color: #f0fff0;
+margin-bottom: 10px;
+margin-left: 20px;
+margin-right: 20px;
+position: relative;
+}
+
+.rev-text
+{
+color: #696969;
+font-size: 18px;
+font-family: comic Sans MS;
+font-style: Italic;
+font-weight: 400;
+line-height: 25px;
+margin-bottom: 0px;
+padding: 5px 0px 5px 12px;
+}
+
+
+.author
+{
+color: #000000;
+font-family: comic Sans MS;
+font-style: Italic;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+position: relative;
+text-align: right;
+right: 10px;
+top: 3px;
+margin-bottom: 5px;
+}

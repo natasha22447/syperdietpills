@@ -1,0 +1,45 @@
+.input-button {
+ 
+	/*basic styles*/
+	width: 120px;  height: 25px;  color: #fff; background-color: #dc143c;
+	text-align: center; font-size: 15px;  line-height: 50px;
+ 
+ 
+	/*gradient styles*/
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #125182), color-stop(.5, #1269ab), color-stop(.51, #004375), to(#00345b));
+	background: -moz-linear-gradient(top, #125182, #1269ab 50%, #004375 51%, #00345b);  
+ 
+	/*border styles*/
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+ 
+	-moz-box-shadow:inset 0 0 3px #000000;
+	-webkit-box-shadow:inset 0 0 3px #000000;
+	box-shadow:inset 0 0 3px #000000;
+}
+ 
+ 
+.input-button p {
+	font-size: 30px;
+	line-height: 50px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-shadow: 0px 0px 3px #555;
+ 
+}
+ 
+a {
+	text-decoration: none;
+	color: #fff;
+}
+ 
+.input-button:hover {
+	-moz-box-shadow:inset 0 0 50px #000000;
+	-webkit-box-shadow:inset 0 0 50px #000000;
+	box-shadow:inset 0 0 50px #000000;
+}
+ 
+.input-button p:hover {
+	text-shadow: 0px 0px 3px #888;
+}
